@@ -1,5 +1,5 @@
 com\springboot\SpringBoot1\Application.class
 com\springboot\SpringBoot1\SpringBootStartApplication.class
+com\springboot\SpringBoot1\web\JspController.class
 com\springboot\SpringBoot1\web\FTLIndexController.class
 com\springboot\SpringBoot1\web\SampleController.class
-com\springboot\SpringBoot1\web\JspController.class

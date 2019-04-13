@@ -1,5 +1,8 @@
 server:
- port: 8081
+ port: 8080
  
 spring.mvc.view.prefix: /WEB-INF/jsp/
 spring.mvc.view.suffix: .jsp
+
+logging.config: classpath:log/logback-spring.xml
+logging.path: D:/nmyslog/wuxingya
