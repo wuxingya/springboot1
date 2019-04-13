@@ -30,13 +30,13 @@
 
 
 		<!-- 作为web项目 必须加入servlet 否则无法启动 -->
-		<!-- <dependency> <groupId>javax.servlet</groupId> <artifactId>javax.servlet-api</artifactId> 
-			</dependency> -->
+		 <dependency> <groupId>javax.servlet</groupId> <artifactId>javax.servlet-api</artifactId>
+			</dependency>
 		<!-- 增加对jsp 页面的支持 增加外部 tomcat（内部tomcat不支持） 或(单独的tomcat 开发环境不支持，打成war丢到tomcat里面就支持) -->
-		<dependency>
+		<!--<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-		</dependency>
+		</dependency>-->
 		<!-- 增加对 freemarker 的支持 版本号可以不写 都在parent starter 里面跟着父级的版本号走 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
