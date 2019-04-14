@@ -5,4 +5,4 @@ spring.mvc.view.prefix: /WEB-INF/jsp/
 spring.mvc.view.suffix: .jsp
 
 logging.config: classpath:log/logback-spring.xml
-logging.path: D:/nmyslog/wuxingya
+logging.path: /Users/wuxingya/IdeaProjects/springboot1/SpringBoot1
